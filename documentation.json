@@ -1258,6 +1258,406 @@
                 "defaultValue": "{\r\n  providers: [\r\n    provideBrowserGlobalErrorListeners(),\r\n    provideRouter(routes)\r\n  ]\r\n}"
             },
             {
+                "name": "Blue",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/stories/badge.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story",
+                "defaultValue": "{\r\n  args: {\r\n    backgroundColor: '#236FBC'\r\n  },\r\n}"
+            },
+            {
+                "name": "Blue",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/stories/warning.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story",
+                "defaultValue": "{\r\n  args: {\r\n    color: '#236FBC',\r\n    fontSize: '1em'\r\n  }\r\n}"
+            },
+            {
+                "name": "Brown",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/stories/badge.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story",
+                "defaultValue": "{\r\n  args: {\r\n    backgroundColor: '#545454'\r\n  },\r\n}"
+            },
+            {
+                "name": "Brown",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/stories/warning.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story",
+                "defaultValue": "{\r\n  args: {\r\n    color: '#545454',\r\n    fontSize: '1em'\r\n  }\r\n}"
+            },
+            {
+                "name": "Checked",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/stories/toggle.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story",
+                "defaultValue": "{\r\n  args: {\r\n    checked: true,\r\n  },\r\n}"
+            },
+            {
+                "name": "CustomOptions",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/stories/dropdown.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story",
+                "defaultValue": "{\r\n  args: {\r\n    color: '#545454',\r\n    label: 'Select Storybook Language',\r\n    options: ['Angular', 'Vue', 'React']\r\n  }\r\n}"
+            },
+            {
+                "name": "Default",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/stories/briefcaseIcon.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story",
+                "defaultValue": "{\r\n  args: {\r\n    value: 'Value'\r\n  }\r\n}"
+            },
+            {
+                "name": "Default",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/stories/button.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story",
+                "defaultValue": "{\r\n  args: {\r\n    backgroundColor: 'transparent',\r\n    color: 'black',\r\n    label: 'Sample button',\r\n    bColor: 'black'\r\n  }\r\n}"
+            },
+            {
+                "name": "Default",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/stories/dropdown.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story",
+                "defaultValue": "{\r\n  args: {\r\n    color: '#545454',\r\n    label: 'Dropdown',\r\n    options: ['Option 1', 'Option 2', 'Option 3']\r\n  }\r\n}"
+            },
+            {
+                "name": "Default",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/stories/label.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story",
+                "defaultValue": "{\r\n  args: {\r\n    backgroundColor: '#F1F1F1',\r\n    color: '#000',\r\n    borderColor: '#D5D5D5',\r\n    label: 'Label'\r\n  },\r\n}"
+            },
+            {
+                "name": "Default",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/stories/link.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story",
+                "defaultValue": "{\r\n  args: {\r\n    hrefURL: '#',\r\n    linkText: 'Link',\r\n  },\r\n}"
+            },
+            {
+                "name": "Default",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/stories/map.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story",
+                "defaultValue": "{\r\n  args: {\r\n    hrefURL: '#',\r\n    size: 24,\r\n    color: '#000'\r\n  }\r\n}"
+            },
+            {
+                "name": "Default",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/stories/placeholder.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story",
+                "defaultValue": "{\r\n  args: {\r\n    pholder: 'Placeholder',\r\n    bgColor: '#1E1E1E'\r\n  },\r\n}"
+            },
+            {
+                "name": "Default",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/stories/replaceMe.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story",
+                "defaultValue": "{\r\n  args: {\r\n    label: 'Replace me',\r\n    color: '#000',\r\n    bgColor: '#DDD1EB',\r\n    borderColor: '#503A6A'\r\n  }\r\n}"
+            },
+            {
+                "name": "Default",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/stories/rightArrow.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story",
+                "defaultValue": "{\r\n  args: {\r\n    size: '1em',\r\n    color: 'black'\r\n  }\r\n}"
+            },
+            {
+                "name": "Default",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/stories/title.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story",
+                "defaultValue": "{\r\n  args: {\r\n    title: 'Title',\r\n    fontSize: '1em',\r\n    fontWeight: 'bold',\r\n    color: '#000'\r\n  }\r\n}"
+            },
+            {
+                "name": "Default",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/stories/toggle.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story",
+                "defaultValue": "{\r\n  args: {\r\n    checked: false,\r\n  }\r\n}"
+            },
+            {
+                "name": "Default",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/stories/value.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story",
+                "defaultValue": "{\r\n  args: {\r\n    value: 'Value'\r\n  }\r\n}"
+            },
+            {
+                "name": "Green",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/stories/badge.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story",
+                "defaultValue": "{\r\n  args: {\r\n    backgroundColor: '#6EC58F'\r\n  },\r\n}"
+            },
+            {
+                "name": "Green",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/stories/warning.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story",
+                "defaultValue": "{\r\n  args: {\r\n    color: '#6EC58F',\r\n    fontSize: '1em'\r\n  }\r\n}"
+            },
+            {
+                "name": "meta",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/stories/badge.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Meta<BadgeComponent>",
+                "defaultValue": "{\r\n  title: 'Example/Badge',\r\n  component: BadgeComponent,\r\n  tags: ['autodocs'],\r\n  argTypes: {\r\n    backgroundColor: {\r\n      control: 'color',\r\n    }\r\n  }\r\n}"
+            },
+            {
+                "name": "meta",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/stories/briefcaseIcon.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Meta<BriefcaseIconComponent>",
+                "defaultValue": "{\r\n  title: 'Example/BriefcaseIcon',\r\n  component: BriefcaseIconComponent,\r\n  tags: ['autodocs']\r\n}"
+            },
+            {
+                "name": "meta",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/stories/button.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Meta<ButtonComponent>",
+                "defaultValue": "{\r\n  title: 'Example/Button',\r\n  component: ButtonComponent,\r\n  tags: ['autodocs'],\r\n  argTypes: {\r\n    backgroundColor: {\r\n      control: 'color'\r\n    }, color: {\r\n      control: 'color'\r\n    }, label: {\r\n      control: 'text'\r\n    }, bColor: {\r\n      control: 'color'\r\n    }\r\n  }\r\n}"
+            },
+            {
+                "name": "meta",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/stories/dropdown.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Meta<DropdownComponent>",
+                "defaultValue": "{\r\n  title: 'Example/Dropdown',\r\n  component: DropdownComponent,\r\n  tags: ['autodocs'],\r\n  argTypes: {\r\n    color: {\r\n      control: 'color',\r\n    },\r\n    label: {\r\n      control: 'text'\r\n    },\r\n    options: {\r\n      control: 'object'\r\n    }\r\n  }\r\n}"
+            },
+            {
+                "name": "meta",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/stories/label.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Meta<LabelComponent>",
+                "defaultValue": "{\r\n  title: 'Example/Label',\r\n  component: LabelComponent,\r\n  tags: ['autodocs'],\r\n  argTypes: {\r\n    backgroundColor: {\r\n      control: 'color'\r\n    },\r\n    color: {\r\n      control: 'color'\r\n    },\r\n    borderColor: {\r\n      control: 'color'\r\n    },\r\n    label: {\r\n      control: 'text'\r\n    }\r\n  }\r\n}"
+            },
+            {
+                "name": "meta",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/stories/link.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Meta<LinkComponent>",
+                "defaultValue": "{\r\n  title: 'Example/Link',\r\n  component: LinkComponent,\r\n  tags: ['autodocs'],\r\n  argTypes: {\r\n    hrefURL: {\r\n      control: 'text',\r\n    },\r\n    linkText: {\r\n      control: 'text',\r\n    }\r\n  }\r\n}"
+            },
+            {
+                "name": "meta",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/stories/map.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Meta<MapComponent>",
+                "defaultValue": "{\r\n  title: 'Example/Map',\r\n  component: MapComponent,\r\n  tags: ['autodocs'],\r\n  argTypes: {\r\n    hrefURL: {\r\n      control: 'text'\r\n    },\r\n    size: {\r\n      control: { type: 'number', min: 16, max: 32 }\r\n    },\r\n    color: {\r\n      control: 'color'\r\n    }\r\n  }\r\n}"
+            },
+            {
+                "name": "meta",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/stories/placeholder.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Meta<PlaceholderComponent>",
+                "defaultValue": "{\r\n  title: 'Example/Placeholder',\r\n  component: PlaceholderComponent,\r\n  tags: ['autodocs'],\r\n  argTypes: {\r\n    pholder: {\r\n      control: 'text'\r\n    },\r\n    bgColor: {\r\n      control: 'color'\r\n    }\r\n  }\r\n}"
+            },
+            {
+                "name": "meta",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/stories/replaceMe.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Meta<ReplaceMeComponent>",
+                "defaultValue": "{\r\n  title: 'Example/ReplaceMe',\r\n  component: ReplaceMeComponent,\r\n  tags: ['autodocs'],\r\n  argTypes: {\r\n    label: {\r\n      control: 'text'\r\n    },\r\n    color: {\r\n      control: 'color'\r\n    },\r\n    bgColor: {\r\n      control: 'color'\r\n    },\r\n    borderColor: {\r\n      control: 'color'\r\n    },\r\n    onClick: {\r\n      action: 'Replace button clicked'\r\n    }\r\n  }\r\n\r\n}"
+            },
+            {
+                "name": "meta",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/stories/rightArrow.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Meta<RightArrowComponent>",
+                "defaultValue": "{\r\n  title: 'Example/RightArrow',\r\n  component: RightArrowComponent,\r\n  tags: ['autodocs'],\r\n  argTypes: {\r\n    size: {\r\n      control: 'text'\r\n    },\r\n    color: {\r\n      control: 'color'\r\n    }\r\n  }\r\n}"
+            },
+            {
+                "name": "meta",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/stories/title.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Meta<TitleComponent>",
+                "defaultValue": "{\r\n  title: 'Example/Title',\r\n  component: TitleComponent,\r\n  tags: ['autodocs'],\r\n  argTypes: {\r\n    title: {\r\n      control: 'text'\r\n    },\r\n    fontSize: {\r\n      control: 'text'\r\n    },\r\n    fontWeight: {\r\n      control: 'text'\r\n    },\r\n    color: {\r\n      control: 'color'\r\n    }\r\n  }\r\n}"
+            },
+            {
+                "name": "meta",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/stories/toggle.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Meta<ToggleComponent>",
+                "defaultValue": "{\r\n  title: 'Example/Toggle',\r\n  component: ToggleComponent,\r\n  tags: ['autodocs'],\r\n  argTypes: {\r\n    checkedChange: { action: 'checkedChange' },\r\n  }\r\n}"
+            },
+            {
+                "name": "meta",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/stories/value.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Meta<ValueComponent>",
+                "defaultValue": "{\r\n  title: 'Example/Value',\r\n  component: ValueComponent,\r\n  tags: ['autodocs']\r\n}"
+            },
+            {
+                "name": "meta",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/stories/warning.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Meta<WarningComponent>",
+                "defaultValue": "{\r\n  title: 'Example/Warning',\r\n  component: WarningComponent,\r\n  tags: ['autodocs'],\r\n  argTypes: {\r\n    color: {\r\n      control: 'color',\r\n    },\r\n    fontSize: {\r\n      control: 'text',\r\n    }\r\n  }\r\n}"
+            },
+            {
+                "name": "NormalTitle",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/stories/title.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story",
+                "defaultValue": "{\r\n  args: {\r\n    title: 'Title',\r\n    fontSize: '0.7em',\r\n    fontWeight: 'normal',\r\n    color: '#000'\r\n  }\r\n}"
+            },
+            {
+                "name": "Orange",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/stories/badge.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story",
+                "defaultValue": "{\r\n  args: {\r\n    backgroundColor: '#E57C71'\r\n  },\r\n}"
+            },
+            {
+                "name": "Orange",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/stories/warning.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story",
+                "defaultValue": "{\r\n  args: {\r\n    color: '#E57C71',\r\n    fontSize: '1em'\r\n  }\r\n}"
+            },
+            {
+                "name": "OtherLink",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/stories/link.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story",
+                "defaultValue": "{\r\n  args: {\r\n    hrefURL: 'https://storybook.js.org/docs/get-started/frameworks/angular',\r\n    linkText: 'Angular Storybook',\r\n  },\r\n}"
+            },
+            {
+                "name": "Primary",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/stories/button.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story",
+                "defaultValue": "{\r\n  args: {\r\n    backgroundColor: 'blue',\r\n    color: 'white',\r\n    label: 'Sample button',\r\n    bColor: 'white'\r\n  }\r\n}"
+            },
+            {
+                "name": "Primary",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/stories/replaceMe.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story",
+                "defaultValue": "{\r\n  args: {\r\n    label: 'Replace me',\r\n    color: '#000',\r\n    bgColor: '#9169C0',\r\n    borderColor: '#B59BD5'\r\n  }\r\n}"
+            },
+            {
                 "name": "routes",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
@@ -1266,10 +1666,205 @@
                 "deprecationMessage": "",
                 "type": "Routes",
                 "defaultValue": "[\r\n\r\n]"
+            },
+            {
+                "name": "White",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/stories/map.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story",
+                "defaultValue": "{\r\n  args: {\r\n    hrefURL: '#',\r\n    size: 32,\r\n    color: '#fff'\r\n  }\r\n}"
+            },
+            {
+                "name": "White",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/stories/rightArrow.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story",
+                "defaultValue": "{\r\n  args: {\r\n    size: '1em',\r\n    color: 'white'\r\n  }\r\n}"
+            },
+            {
+                "name": "Yellow",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/stories/badge.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story",
+                "defaultValue": "{\r\n  args: {\r\n    backgroundColor: '#FCB76E'\r\n  },\r\n}"
+            },
+            {
+                "name": "Yellow",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/stories/warning.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story",
+                "defaultValue": "{\r\n  args: {\r\n    color: '#FCB76E',\r\n    fontSize: '1em'\r\n  }\r\n}"
             }
         ],
         "functions": [],
-        "typealiases": [],
+        "typealiases": [
+            {
+                "name": "Story",
+                "ctype": "miscellaneous",
+                "subtype": "typealias",
+                "rawtype": "StoryObj<BadgeComponent>",
+                "file": "src/stories/badge.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "description": "",
+                "kind": 184
+            },
+            {
+                "name": "Story",
+                "ctype": "miscellaneous",
+                "subtype": "typealias",
+                "rawtype": "StoryObj<BriefcaseIconComponent>",
+                "file": "src/stories/briefcaseIcon.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "description": "",
+                "kind": 184
+            },
+            {
+                "name": "Story",
+                "ctype": "miscellaneous",
+                "subtype": "typealias",
+                "rawtype": "StoryObj<ButtonComponent>",
+                "file": "src/stories/button.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "description": "",
+                "kind": 184
+            },
+            {
+                "name": "Story",
+                "ctype": "miscellaneous",
+                "subtype": "typealias",
+                "rawtype": "StoryObj<DropdownComponent>",
+                "file": "src/stories/dropdown.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "description": "",
+                "kind": 184
+            },
+            {
+                "name": "Story",
+                "ctype": "miscellaneous",
+                "subtype": "typealias",
+                "rawtype": "StoryObj<LabelComponent>",
+                "file": "src/stories/label.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "description": "",
+                "kind": 184
+            },
+            {
+                "name": "Story",
+                "ctype": "miscellaneous",
+                "subtype": "typealias",
+                "rawtype": "StoryObj<LinkComponent>",
+                "file": "src/stories/link.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "description": "",
+                "kind": 184
+            },
+            {
+                "name": "Story",
+                "ctype": "miscellaneous",
+                "subtype": "typealias",
+                "rawtype": "StoryObj<MapComponent>",
+                "file": "src/stories/map.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "description": "",
+                "kind": 184
+            },
+            {
+                "name": "Story",
+                "ctype": "miscellaneous",
+                "subtype": "typealias",
+                "rawtype": "StoryObj<PlaceholderComponent>",
+                "file": "src/stories/placeholder.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "description": "",
+                "kind": 184
+            },
+            {
+                "name": "Story",
+                "ctype": "miscellaneous",
+                "subtype": "typealias",
+                "rawtype": "StoryObj<ReplaceMeComponent>",
+                "file": "src/stories/replaceMe.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "description": "",
+                "kind": 184
+            },
+            {
+                "name": "Story",
+                "ctype": "miscellaneous",
+                "subtype": "typealias",
+                "rawtype": "StoryObj<RightArrowComponent>",
+                "file": "src/stories/rightArrow.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "description": "",
+                "kind": 184
+            },
+            {
+                "name": "Story",
+                "ctype": "miscellaneous",
+                "subtype": "typealias",
+                "rawtype": "StoryObj<TitleComponent>",
+                "file": "src/stories/title.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "description": "",
+                "kind": 184
+            },
+            {
+                "name": "Story",
+                "ctype": "miscellaneous",
+                "subtype": "typealias",
+                "rawtype": "StoryObj<ToggleComponent>",
+                "file": "src/stories/toggle.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "description": "",
+                "kind": 184
+            },
+            {
+                "name": "Story",
+                "ctype": "miscellaneous",
+                "subtype": "typealias",
+                "rawtype": "StoryObj<ValueComponent>",
+                "file": "src/stories/value.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "description": "",
+                "kind": 184
+            },
+            {
+                "name": "Story",
+                "ctype": "miscellaneous",
+                "subtype": "typealias",
+                "rawtype": "StoryObj<WarningComponent>",
+                "file": "src/stories/warning.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "description": "",
+                "kind": 184
+            }
+        ],
         "enumerations": [],
         "groupedVariables": {
             "src/app/app.config.ts": [
@@ -1282,6 +1877,474 @@
                     "deprecationMessage": "",
                     "type": "ApplicationConfig",
                     "defaultValue": "{\r\n  providers: [\r\n    provideBrowserGlobalErrorListeners(),\r\n    provideRouter(routes)\r\n  ]\r\n}"
+                }
+            ],
+            "src/stories/badge.stories.ts": [
+                {
+                    "name": "Blue",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/stories/badge.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story",
+                    "defaultValue": "{\r\n  args: {\r\n    backgroundColor: '#236FBC'\r\n  },\r\n}"
+                },
+                {
+                    "name": "Brown",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/stories/badge.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story",
+                    "defaultValue": "{\r\n  args: {\r\n    backgroundColor: '#545454'\r\n  },\r\n}"
+                },
+                {
+                    "name": "Green",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/stories/badge.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story",
+                    "defaultValue": "{\r\n  args: {\r\n    backgroundColor: '#6EC58F'\r\n  },\r\n}"
+                },
+                {
+                    "name": "meta",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/stories/badge.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Meta<BadgeComponent>",
+                    "defaultValue": "{\r\n  title: 'Example/Badge',\r\n  component: BadgeComponent,\r\n  tags: ['autodocs'],\r\n  argTypes: {\r\n    backgroundColor: {\r\n      control: 'color',\r\n    }\r\n  }\r\n}"
+                },
+                {
+                    "name": "Orange",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/stories/badge.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story",
+                    "defaultValue": "{\r\n  args: {\r\n    backgroundColor: '#E57C71'\r\n  },\r\n}"
+                },
+                {
+                    "name": "Yellow",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/stories/badge.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story",
+                    "defaultValue": "{\r\n  args: {\r\n    backgroundColor: '#FCB76E'\r\n  },\r\n}"
+                }
+            ],
+            "src/stories/warning.stories.ts": [
+                {
+                    "name": "Blue",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/stories/warning.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story",
+                    "defaultValue": "{\r\n  args: {\r\n    color: '#236FBC',\r\n    fontSize: '1em'\r\n  }\r\n}"
+                },
+                {
+                    "name": "Brown",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/stories/warning.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story",
+                    "defaultValue": "{\r\n  args: {\r\n    color: '#545454',\r\n    fontSize: '1em'\r\n  }\r\n}"
+                },
+                {
+                    "name": "Green",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/stories/warning.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story",
+                    "defaultValue": "{\r\n  args: {\r\n    color: '#6EC58F',\r\n    fontSize: '1em'\r\n  }\r\n}"
+                },
+                {
+                    "name": "meta",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/stories/warning.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Meta<WarningComponent>",
+                    "defaultValue": "{\r\n  title: 'Example/Warning',\r\n  component: WarningComponent,\r\n  tags: ['autodocs'],\r\n  argTypes: {\r\n    color: {\r\n      control: 'color',\r\n    },\r\n    fontSize: {\r\n      control: 'text',\r\n    }\r\n  }\r\n}"
+                },
+                {
+                    "name": "Orange",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/stories/warning.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story",
+                    "defaultValue": "{\r\n  args: {\r\n    color: '#E57C71',\r\n    fontSize: '1em'\r\n  }\r\n}"
+                },
+                {
+                    "name": "Yellow",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/stories/warning.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story",
+                    "defaultValue": "{\r\n  args: {\r\n    color: '#FCB76E',\r\n    fontSize: '1em'\r\n  }\r\n}"
+                }
+            ],
+            "src/stories/toggle.stories.ts": [
+                {
+                    "name": "Checked",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/stories/toggle.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story",
+                    "defaultValue": "{\r\n  args: {\r\n    checked: true,\r\n  },\r\n}"
+                },
+                {
+                    "name": "Default",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/stories/toggle.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story",
+                    "defaultValue": "{\r\n  args: {\r\n    checked: false,\r\n  }\r\n}"
+                },
+                {
+                    "name": "meta",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/stories/toggle.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Meta<ToggleComponent>",
+                    "defaultValue": "{\r\n  title: 'Example/Toggle',\r\n  component: ToggleComponent,\r\n  tags: ['autodocs'],\r\n  argTypes: {\r\n    checkedChange: { action: 'checkedChange' },\r\n  }\r\n}"
+                }
+            ],
+            "src/stories/dropdown.stories.ts": [
+                {
+                    "name": "CustomOptions",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/stories/dropdown.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story",
+                    "defaultValue": "{\r\n  args: {\r\n    color: '#545454',\r\n    label: 'Select Storybook Language',\r\n    options: ['Angular', 'Vue', 'React']\r\n  }\r\n}"
+                },
+                {
+                    "name": "Default",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/stories/dropdown.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story",
+                    "defaultValue": "{\r\n  args: {\r\n    color: '#545454',\r\n    label: 'Dropdown',\r\n    options: ['Option 1', 'Option 2', 'Option 3']\r\n  }\r\n}"
+                },
+                {
+                    "name": "meta",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/stories/dropdown.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Meta<DropdownComponent>",
+                    "defaultValue": "{\r\n  title: 'Example/Dropdown',\r\n  component: DropdownComponent,\r\n  tags: ['autodocs'],\r\n  argTypes: {\r\n    color: {\r\n      control: 'color',\r\n    },\r\n    label: {\r\n      control: 'text'\r\n    },\r\n    options: {\r\n      control: 'object'\r\n    }\r\n  }\r\n}"
+                }
+            ],
+            "src/stories/briefcaseIcon.stories.ts": [
+                {
+                    "name": "Default",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/stories/briefcaseIcon.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story",
+                    "defaultValue": "{\r\n  args: {\r\n    value: 'Value'\r\n  }\r\n}"
+                },
+                {
+                    "name": "meta",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/stories/briefcaseIcon.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Meta<BriefcaseIconComponent>",
+                    "defaultValue": "{\r\n  title: 'Example/BriefcaseIcon',\r\n  component: BriefcaseIconComponent,\r\n  tags: ['autodocs']\r\n}"
+                }
+            ],
+            "src/stories/button.stories.ts": [
+                {
+                    "name": "Default",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/stories/button.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story",
+                    "defaultValue": "{\r\n  args: {\r\n    backgroundColor: 'transparent',\r\n    color: 'black',\r\n    label: 'Sample button',\r\n    bColor: 'black'\r\n  }\r\n}"
+                },
+                {
+                    "name": "meta",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/stories/button.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Meta<ButtonComponent>",
+                    "defaultValue": "{\r\n  title: 'Example/Button',\r\n  component: ButtonComponent,\r\n  tags: ['autodocs'],\r\n  argTypes: {\r\n    backgroundColor: {\r\n      control: 'color'\r\n    }, color: {\r\n      control: 'color'\r\n    }, label: {\r\n      control: 'text'\r\n    }, bColor: {\r\n      control: 'color'\r\n    }\r\n  }\r\n}"
+                },
+                {
+                    "name": "Primary",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/stories/button.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story",
+                    "defaultValue": "{\r\n  args: {\r\n    backgroundColor: 'blue',\r\n    color: 'white',\r\n    label: 'Sample button',\r\n    bColor: 'white'\r\n  }\r\n}"
+                }
+            ],
+            "src/stories/label.stories.ts": [
+                {
+                    "name": "Default",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/stories/label.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story",
+                    "defaultValue": "{\r\n  args: {\r\n    backgroundColor: '#F1F1F1',\r\n    color: '#000',\r\n    borderColor: '#D5D5D5',\r\n    label: 'Label'\r\n  },\r\n}"
+                },
+                {
+                    "name": "meta",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/stories/label.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Meta<LabelComponent>",
+                    "defaultValue": "{\r\n  title: 'Example/Label',\r\n  component: LabelComponent,\r\n  tags: ['autodocs'],\r\n  argTypes: {\r\n    backgroundColor: {\r\n      control: 'color'\r\n    },\r\n    color: {\r\n      control: 'color'\r\n    },\r\n    borderColor: {\r\n      control: 'color'\r\n    },\r\n    label: {\r\n      control: 'text'\r\n    }\r\n  }\r\n}"
+                }
+            ],
+            "src/stories/link.stories.ts": [
+                {
+                    "name": "Default",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/stories/link.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story",
+                    "defaultValue": "{\r\n  args: {\r\n    hrefURL: '#',\r\n    linkText: 'Link',\r\n  },\r\n}"
+                },
+                {
+                    "name": "meta",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/stories/link.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Meta<LinkComponent>",
+                    "defaultValue": "{\r\n  title: 'Example/Link',\r\n  component: LinkComponent,\r\n  tags: ['autodocs'],\r\n  argTypes: {\r\n    hrefURL: {\r\n      control: 'text',\r\n    },\r\n    linkText: {\r\n      control: 'text',\r\n    }\r\n  }\r\n}"
+                },
+                {
+                    "name": "OtherLink",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/stories/link.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story",
+                    "defaultValue": "{\r\n  args: {\r\n    hrefURL: 'https://storybook.js.org/docs/get-started/frameworks/angular',\r\n    linkText: 'Angular Storybook',\r\n  },\r\n}"
+                }
+            ],
+            "src/stories/map.stories.ts": [
+                {
+                    "name": "Default",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/stories/map.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story",
+                    "defaultValue": "{\r\n  args: {\r\n    hrefURL: '#',\r\n    size: 24,\r\n    color: '#000'\r\n  }\r\n}"
+                },
+                {
+                    "name": "meta",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/stories/map.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Meta<MapComponent>",
+                    "defaultValue": "{\r\n  title: 'Example/Map',\r\n  component: MapComponent,\r\n  tags: ['autodocs'],\r\n  argTypes: {\r\n    hrefURL: {\r\n      control: 'text'\r\n    },\r\n    size: {\r\n      control: { type: 'number', min: 16, max: 32 }\r\n    },\r\n    color: {\r\n      control: 'color'\r\n    }\r\n  }\r\n}"
+                },
+                {
+                    "name": "White",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/stories/map.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story",
+                    "defaultValue": "{\r\n  args: {\r\n    hrefURL: '#',\r\n    size: 32,\r\n    color: '#fff'\r\n  }\r\n}"
+                }
+            ],
+            "src/stories/placeholder.stories.ts": [
+                {
+                    "name": "Default",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/stories/placeholder.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story",
+                    "defaultValue": "{\r\n  args: {\r\n    pholder: 'Placeholder',\r\n    bgColor: '#1E1E1E'\r\n  },\r\n}"
+                },
+                {
+                    "name": "meta",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/stories/placeholder.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Meta<PlaceholderComponent>",
+                    "defaultValue": "{\r\n  title: 'Example/Placeholder',\r\n  component: PlaceholderComponent,\r\n  tags: ['autodocs'],\r\n  argTypes: {\r\n    pholder: {\r\n      control: 'text'\r\n    },\r\n    bgColor: {\r\n      control: 'color'\r\n    }\r\n  }\r\n}"
+                }
+            ],
+            "src/stories/replaceMe.stories.ts": [
+                {
+                    "name": "Default",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/stories/replaceMe.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story",
+                    "defaultValue": "{\r\n  args: {\r\n    label: 'Replace me',\r\n    color: '#000',\r\n    bgColor: '#DDD1EB',\r\n    borderColor: '#503A6A'\r\n  }\r\n}"
+                },
+                {
+                    "name": "meta",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/stories/replaceMe.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Meta<ReplaceMeComponent>",
+                    "defaultValue": "{\r\n  title: 'Example/ReplaceMe',\r\n  component: ReplaceMeComponent,\r\n  tags: ['autodocs'],\r\n  argTypes: {\r\n    label: {\r\n      control: 'text'\r\n    },\r\n    color: {\r\n      control: 'color'\r\n    },\r\n    bgColor: {\r\n      control: 'color'\r\n    },\r\n    borderColor: {\r\n      control: 'color'\r\n    },\r\n    onClick: {\r\n      action: 'Replace button clicked'\r\n    }\r\n  }\r\n\r\n}"
+                },
+                {
+                    "name": "Primary",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/stories/replaceMe.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story",
+                    "defaultValue": "{\r\n  args: {\r\n    label: 'Replace me',\r\n    color: '#000',\r\n    bgColor: '#9169C0',\r\n    borderColor: '#B59BD5'\r\n  }\r\n}"
+                }
+            ],
+            "src/stories/rightArrow.stories.ts": [
+                {
+                    "name": "Default",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/stories/rightArrow.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story",
+                    "defaultValue": "{\r\n  args: {\r\n    size: '1em',\r\n    color: 'black'\r\n  }\r\n}"
+                },
+                {
+                    "name": "meta",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/stories/rightArrow.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Meta<RightArrowComponent>",
+                    "defaultValue": "{\r\n  title: 'Example/RightArrow',\r\n  component: RightArrowComponent,\r\n  tags: ['autodocs'],\r\n  argTypes: {\r\n    size: {\r\n      control: 'text'\r\n    },\r\n    color: {\r\n      control: 'color'\r\n    }\r\n  }\r\n}"
+                },
+                {
+                    "name": "White",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/stories/rightArrow.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story",
+                    "defaultValue": "{\r\n  args: {\r\n    size: '1em',\r\n    color: 'white'\r\n  }\r\n}"
+                }
+            ],
+            "src/stories/title.stories.ts": [
+                {
+                    "name": "Default",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/stories/title.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story",
+                    "defaultValue": "{\r\n  args: {\r\n    title: 'Title',\r\n    fontSize: '1em',\r\n    fontWeight: 'bold',\r\n    color: '#000'\r\n  }\r\n}"
+                },
+                {
+                    "name": "meta",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/stories/title.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Meta<TitleComponent>",
+                    "defaultValue": "{\r\n  title: 'Example/Title',\r\n  component: TitleComponent,\r\n  tags: ['autodocs'],\r\n  argTypes: {\r\n    title: {\r\n      control: 'text'\r\n    },\r\n    fontSize: {\r\n      control: 'text'\r\n    },\r\n    fontWeight: {\r\n      control: 'text'\r\n    },\r\n    color: {\r\n      control: 'color'\r\n    }\r\n  }\r\n}"
+                },
+                {
+                    "name": "NormalTitle",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/stories/title.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story",
+                    "defaultValue": "{\r\n  args: {\r\n    title: 'Title',\r\n    fontSize: '0.7em',\r\n    fontWeight: 'normal',\r\n    color: '#000'\r\n  }\r\n}"
+                }
+            ],
+            "src/stories/value.stories.ts": [
+                {
+                    "name": "Default",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/stories/value.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story",
+                    "defaultValue": "{\r\n  args: {\r\n    value: 'Value'\r\n  }\r\n}"
+                },
+                {
+                    "name": "meta",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/stories/value.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Meta<ValueComponent>",
+                    "defaultValue": "{\r\n  title: 'Example/Value',\r\n  component: ValueComponent,\r\n  tags: ['autodocs']\r\n}"
                 }
             ],
             "src/app/app.routes.ts": [
@@ -1299,7 +2362,190 @@
         },
         "groupedFunctions": {},
         "groupedEnumerations": {},
-        "groupedTypeAliases": {}
+        "groupedTypeAliases": {
+            "src/stories/badge.stories.ts": [
+                {
+                    "name": "Story",
+                    "ctype": "miscellaneous",
+                    "subtype": "typealias",
+                    "rawtype": "StoryObj<BadgeComponent>",
+                    "file": "src/stories/badge.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "description": "",
+                    "kind": 184
+                }
+            ],
+            "src/stories/briefcaseIcon.stories.ts": [
+                {
+                    "name": "Story",
+                    "ctype": "miscellaneous",
+                    "subtype": "typealias",
+                    "rawtype": "StoryObj<BriefcaseIconComponent>",
+                    "file": "src/stories/briefcaseIcon.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "description": "",
+                    "kind": 184
+                }
+            ],
+            "src/stories/button.stories.ts": [
+                {
+                    "name": "Story",
+                    "ctype": "miscellaneous",
+                    "subtype": "typealias",
+                    "rawtype": "StoryObj<ButtonComponent>",
+                    "file": "src/stories/button.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "description": "",
+                    "kind": 184
+                }
+            ],
+            "src/stories/dropdown.stories.ts": [
+                {
+                    "name": "Story",
+                    "ctype": "miscellaneous",
+                    "subtype": "typealias",
+                    "rawtype": "StoryObj<DropdownComponent>",
+                    "file": "src/stories/dropdown.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "description": "",
+                    "kind": 184
+                }
+            ],
+            "src/stories/label.stories.ts": [
+                {
+                    "name": "Story",
+                    "ctype": "miscellaneous",
+                    "subtype": "typealias",
+                    "rawtype": "StoryObj<LabelComponent>",
+                    "file": "src/stories/label.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "description": "",
+                    "kind": 184
+                }
+            ],
+            "src/stories/link.stories.ts": [
+                {
+                    "name": "Story",
+                    "ctype": "miscellaneous",
+                    "subtype": "typealias",
+                    "rawtype": "StoryObj<LinkComponent>",
+                    "file": "src/stories/link.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "description": "",
+                    "kind": 184
+                }
+            ],
+            "src/stories/map.stories.ts": [
+                {
+                    "name": "Story",
+                    "ctype": "miscellaneous",
+                    "subtype": "typealias",
+                    "rawtype": "StoryObj<MapComponent>",
+                    "file": "src/stories/map.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "description": "",
+                    "kind": 184
+                }
+            ],
+            "src/stories/placeholder.stories.ts": [
+                {
+                    "name": "Story",
+                    "ctype": "miscellaneous",
+                    "subtype": "typealias",
+                    "rawtype": "StoryObj<PlaceholderComponent>",
+                    "file": "src/stories/placeholder.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "description": "",
+                    "kind": 184
+                }
+            ],
+            "src/stories/replaceMe.stories.ts": [
+                {
+                    "name": "Story",
+                    "ctype": "miscellaneous",
+                    "subtype": "typealias",
+                    "rawtype": "StoryObj<ReplaceMeComponent>",
+                    "file": "src/stories/replaceMe.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "description": "",
+                    "kind": 184
+                }
+            ],
+            "src/stories/rightArrow.stories.ts": [
+                {
+                    "name": "Story",
+                    "ctype": "miscellaneous",
+                    "subtype": "typealias",
+                    "rawtype": "StoryObj<RightArrowComponent>",
+                    "file": "src/stories/rightArrow.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "description": "",
+                    "kind": 184
+                }
+            ],
+            "src/stories/title.stories.ts": [
+                {
+                    "name": "Story",
+                    "ctype": "miscellaneous",
+                    "subtype": "typealias",
+                    "rawtype": "StoryObj<TitleComponent>",
+                    "file": "src/stories/title.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "description": "",
+                    "kind": 184
+                }
+            ],
+            "src/stories/toggle.stories.ts": [
+                {
+                    "name": "Story",
+                    "ctype": "miscellaneous",
+                    "subtype": "typealias",
+                    "rawtype": "StoryObj<ToggleComponent>",
+                    "file": "src/stories/toggle.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "description": "",
+                    "kind": 184
+                }
+            ],
+            "src/stories/value.stories.ts": [
+                {
+                    "name": "Story",
+                    "ctype": "miscellaneous",
+                    "subtype": "typealias",
+                    "rawtype": "StoryObj<ValueComponent>",
+                    "file": "src/stories/value.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "description": "",
+                    "kind": 184
+                }
+            ],
+            "src/stories/warning.stories.ts": [
+                {
+                    "name": "Story",
+                    "ctype": "miscellaneous",
+                    "subtype": "typealias",
+                    "rawtype": "StoryObj<WarningComponent>",
+                    "file": "src/stories/warning.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "description": "",
+                    "kind": 184
+                }
+            ]
+        }
     },
     "routes": {
         "name": "<root>",
@@ -1307,8 +2553,8 @@
         "children": []
     },
     "coverage": {
-        "count": 35,
-        "status": "medium",
+        "count": 8,
+        "status": "low",
         "files": [
             {
                 "filePath": "src/app/app.config.ts",
@@ -1358,6 +2604,76 @@
                 "status": "medium"
             },
             {
+                "filePath": "src/stories/badge.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "Blue",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/stories/badge.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "Brown",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/stories/badge.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "Green",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/stories/badge.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "meta",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/stories/badge.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "Orange",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/stories/badge.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "Yellow",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/stories/badge.stories.ts",
+                "type": "type alias",
+                "linktype": "miscellaneous",
+                "linksubtype": "typealias",
+                "name": "Story",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
                 "filePath": "src/stories/briefcaseIcon.component.ts",
                 "type": "component",
                 "linktype": "component",
@@ -1365,6 +2681,36 @@
                 "coveragePercent": 50,
                 "coverageCount": "1/2",
                 "status": "medium"
+            },
+            {
+                "filePath": "src/stories/briefcaseIcon.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "Default",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/stories/briefcaseIcon.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "meta",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/stories/briefcaseIcon.stories.ts",
+                "type": "type alias",
+                "linktype": "miscellaneous",
+                "linksubtype": "typealias",
+                "name": "Story",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
             },
             {
                 "filePath": "src/stories/button.component.ts",
@@ -1376,12 +2722,92 @@
                 "status": "very-good"
             },
             {
+                "filePath": "src/stories/button.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "Default",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/stories/button.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "meta",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/stories/button.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "Primary",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/stories/button.stories.ts",
+                "type": "type alias",
+                "linktype": "miscellaneous",
+                "linksubtype": "typealias",
+                "name": "Story",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
                 "filePath": "src/stories/dropdown.component.ts",
                 "type": "component",
                 "linktype": "component",
                 "name": "DropdownComponent",
                 "coveragePercent": 0,
                 "coverageCount": "0/4",
+                "status": "low"
+            },
+            {
+                "filePath": "src/stories/dropdown.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "CustomOptions",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/stories/dropdown.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "Default",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/stories/dropdown.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "meta",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/stories/dropdown.stories.ts",
+                "type": "type alias",
+                "linktype": "miscellaneous",
+                "linksubtype": "typealias",
+                "name": "Story",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
                 "status": "low"
             },
             {
@@ -1394,6 +2820,36 @@
                 "status": "very-good"
             },
             {
+                "filePath": "src/stories/label.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "Default",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/stories/label.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "meta",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/stories/label.stories.ts",
+                "type": "type alias",
+                "linktype": "miscellaneous",
+                "linksubtype": "typealias",
+                "name": "Story",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
                 "filePath": "src/stories/link.component.ts",
                 "type": "component",
                 "linktype": "component",
@@ -1401,6 +2857,46 @@
                 "coveragePercent": 66,
                 "coverageCount": "2/3",
                 "status": "good"
+            },
+            {
+                "filePath": "src/stories/link.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "Default",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/stories/link.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "meta",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/stories/link.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "OtherLink",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/stories/link.stories.ts",
+                "type": "type alias",
+                "linktype": "miscellaneous",
+                "linksubtype": "typealias",
+                "name": "Story",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
             },
             {
                 "filePath": "src/stories/map.component.ts",
@@ -1412,6 +2908,46 @@
                 "status": "good"
             },
             {
+                "filePath": "src/stories/map.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "Default",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/stories/map.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "meta",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/stories/map.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "White",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/stories/map.stories.ts",
+                "type": "type alias",
+                "linktype": "miscellaneous",
+                "linksubtype": "typealias",
+                "name": "Story",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
                 "filePath": "src/stories/placeholder.component.ts",
                 "type": "component",
                 "linktype": "component",
@@ -1421,12 +2957,82 @@
                 "status": "good"
             },
             {
+                "filePath": "src/stories/placeholder.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "Default",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/stories/placeholder.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "meta",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/stories/placeholder.stories.ts",
+                "type": "type alias",
+                "linktype": "miscellaneous",
+                "linksubtype": "typealias",
+                "name": "Story",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
                 "filePath": "src/stories/replaceMe.component.ts",
                 "type": "component",
                 "linktype": "component",
                 "name": "ReplaceMeComponent",
                 "coveragePercent": 16,
                 "coverageCount": "1/6",
+                "status": "low"
+            },
+            {
+                "filePath": "src/stories/replaceMe.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "Default",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/stories/replaceMe.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "meta",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/stories/replaceMe.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "Primary",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/stories/replaceMe.stories.ts",
+                "type": "type alias",
+                "linktype": "miscellaneous",
+                "linksubtype": "typealias",
+                "name": "Story",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
                 "status": "low"
             },
             {
@@ -1439,6 +3045,46 @@
                 "status": "good"
             },
             {
+                "filePath": "src/stories/rightArrow.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "Default",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/stories/rightArrow.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "meta",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/stories/rightArrow.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "White",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/stories/rightArrow.stories.ts",
+                "type": "type alias",
+                "linktype": "miscellaneous",
+                "linksubtype": "typealias",
+                "name": "Story",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
                 "filePath": "src/stories/title.component.ts",
                 "type": "component",
                 "linktype": "component",
@@ -1448,12 +3094,92 @@
                 "status": "very-good"
             },
             {
+                "filePath": "src/stories/title.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "Default",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/stories/title.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "meta",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/stories/title.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "NormalTitle",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/stories/title.stories.ts",
+                "type": "type alias",
+                "linktype": "miscellaneous",
+                "linksubtype": "typealias",
+                "name": "Story",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
                 "filePath": "src/stories/toggle.component.ts",
                 "type": "component",
                 "linktype": "component",
                 "name": "ToggleComponent",
                 "coveragePercent": 0,
                 "coverageCount": "0/4",
+                "status": "low"
+            },
+            {
+                "filePath": "src/stories/toggle.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "Checked",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/stories/toggle.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "Default",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/stories/toggle.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "meta",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/stories/toggle.stories.ts",
+                "type": "type alias",
+                "linktype": "miscellaneous",
+                "linksubtype": "typealias",
+                "name": "Story",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
                 "status": "low"
             },
             {
@@ -1475,12 +3201,112 @@
                 "status": "medium"
             },
             {
+                "filePath": "src/stories/value.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "Default",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/stories/value.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "meta",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/stories/value.stories.ts",
+                "type": "type alias",
+                "linktype": "miscellaneous",
+                "linksubtype": "typealias",
+                "name": "Story",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
                 "filePath": "src/stories/warning.component.ts",
                 "type": "component",
                 "linktype": "component",
                 "name": "WarningComponent",
                 "coveragePercent": 0,
                 "coverageCount": "0/3",
+                "status": "low"
+            },
+            {
+                "filePath": "src/stories/warning.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "Blue",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/stories/warning.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "Brown",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/stories/warning.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "Green",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/stories/warning.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "meta",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/stories/warning.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "Orange",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/stories/warning.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "Yellow",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/stories/warning.stories.ts",
+                "type": "type alias",
+                "linktype": "miscellaneous",
+                "linksubtype": "typealias",
+                "name": "Story",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
                 "status": "low"
             }
         ]
